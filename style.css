@@ -1,4 +1,6 @@
 body {
+    width: 100vw;
+    height: 100vh;
     background: url(hacker-wallpaper.jpg) no-repeat;
     background-size: cover;
     background-blend-mode: darken;
@@ -8,6 +10,7 @@ body {
     background-color: #040427;
     color: white;
     display: flex;
+    text-align: center;
     flex-direction: column;
     align-content: center;
     align-items: center;
@@ -16,6 +19,7 @@ body {
 
 input {
     width: 40%;
+    min-width: 290px;
     padding: 5px;
     border-radius: 5px;
     margin-bottom: 10px;
@@ -24,6 +28,7 @@ input {
 
 button {
     width: 42%;
+    min-width: 290px;
     padding: 6px;
     border-radius: 5px;
     border: none;
